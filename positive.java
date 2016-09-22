@@ -4,10 +4,12 @@ class positive
  public static void main(String args[])
  {
   Scanner sc=new Scanner(System.in);
-  int n=sc.nextInt();
+  String s=sc.nextLine();
+  int n=s.length();
   if(n>0)
   {
-   System.out.println("Positive");
+    System.out.println(s.charAt(n-1));
+    System.out.println(s.charAt(n));
   }
   else if(n==0)
   {
