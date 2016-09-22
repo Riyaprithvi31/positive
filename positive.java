@@ -1,4 +1,4 @@
-import java.util.io.*;
+import java.util.*;
 class positive
 {
  public static void main(String args[])
