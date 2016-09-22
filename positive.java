@@ -5,11 +5,11 @@ class positive
  {
   Scanner sc=new Scanner(System.in);
   String s=sc.nextLine();
-  int n=s.length();
+  int n=s.length()-1;
   if(n>0)
   {
-    System.out.println(s.charAt(n-1));
-    System.out.println(s.charAt(n));
+    System.out.print(s.charAt(n-1));
+    System.out.print(s.charAt(n));
   }
   else if(n==0)
   {
